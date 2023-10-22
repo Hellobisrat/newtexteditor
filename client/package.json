@@ -1,9 +1,9 @@
 {
   "name": "JATE",
   "scripts": {
-    "dev": "webpack-dev-server",
-    "build": "webpack --mode production",
-    "start": "webpack --watchAll"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode production",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider webpack --watchAll"
   },
   "author": "2U",
   "license": "UNLICENSED",
