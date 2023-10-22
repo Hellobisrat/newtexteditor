@@ -1,10 +1,14 @@
-{
+{"engines":{
+  "node": "18.17.0"
+},
   "name": "JATE",
+  
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider webpack-dev-server",
     "build": "NODE_OPTIONS=--openssl-legacy-provider webpack --mode production",
     "start": "NODE_OPTIONS=--openssl-legacy-provider webpack --watchAll"
   },
+  
   "author": "2U",
   "license": "UNLICENSED",
   "devDependencies": {
@@ -28,4 +32,7 @@
     "code-mirror-themes": "^1.0.0",
     "idb": "^6.1.2"
   }
+  
+  
+  
 }
